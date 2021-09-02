@@ -1,0 +1,53 @@
+.footer-jumbo {
+    height: 330px;
+    background-image: url(/img/footer-bg.jpg);
+    color: white;
+    .container {
+      justify-content: space-between;
+      align-items: center;
+      ul {
+          padding-right: 10px;
+        h2 {
+          padding: 10px 0;
+          color: white;
+        }
+        li {
+          font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+            Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+          font-size: 12px;
+          color: rgb(100, 134, 134);
+        }
+      }
+        img {
+          width: 400px;
+          position: relative;
+          z-index: 1;
+        }
+    }
+  }
+  .footer-end{
+    height: 80px;
+    background-color: rgb(48,48,48);
+    position: relative;
+    z-index: 2;
+    .container{
+        align-items: center;
+        justify-content: space-between;
+        button{
+            background-color:rgb(48,48,48);
+            font-size: 20px;
+            padding: 10px;
+            color: white;
+            border-color: rgb(2,130,249);
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+        .icons{
+            align-items: center;
+            padding: 0 10px;
+            color: rgb(2,130,249);
+            div{
+                padding: 0 5px;
+            }
+        }
+    }
+}

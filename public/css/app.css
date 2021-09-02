@@ -1,0 +1,123 @@
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  height: 110px;
+}
+
+.nav-bar .nav-elements ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+.nav-bar .nav-elements ul li {
+  margin: 0 16px;
+  height: 100%;
+  padding-top: 40px;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.nav-bar .nav-elements ul li:hover {
+  color: #0479e6;
+  border-bottom: 3px solid #0479e6;
+}
+
+.nav-bar input {
+  border: none;
+  border-bottom: 2px solid #0479e6;
+  margin-top: 40px;
+  font-size: 12px;
+}
+
+.jumbo {
+  height: 300px;
+  width: 100%;
+  background-image: url(/img/jumbotron.jpg);
+}
+
+.footer-jumbo {
+  height: 330px;
+  background-image: url(/img/footer-bg.jpg);
+  color: white;
+}
+
+.footer-jumbo .container {
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-jumbo .container ul {
+  padding-right: 10px;
+}
+
+.footer-jumbo .container ul h2 {
+  padding: 10px 0;
+  color: white;
+}
+
+.footer-jumbo .container ul li {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 12px;
+  color: #648686;
+}
+
+.footer-jumbo .container img {
+  width: 400px;
+  position: relative;
+  z-index: 1;
+}
+
+.footer-end {
+  height: 80px;
+  background-color: #303030;
+  position: relative;
+  z-index: 2;
+}
+
+.footer-end .container {
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer-end .container button {
+  background-color: #303030;
+  font-size: 20px;
+  padding: 10px;
+  color: white;
+  border-color: #0282f9;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.footer-end .container .icons {
+  align-items: center;
+  padding: 0 10px;
+  color: #0282f9;
+}
+
+.footer-end .container .icons div {
+  padding: 0 5px;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "oswald";
+}
+
+.container {
+  width: 1000px;
+  margin: 0 auto;
+  height: 100%;
+}
+
+.flex {
+  display: flex;
+}
+
+ul {
+  list-style: none;
+}
+
