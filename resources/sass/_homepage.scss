@@ -1,0 +1,43 @@
+.main-section {
+    background-color: rgb(28, 28, 28);
+    .container-main {
+      height: 100%;
+      flex-wrap: wrap;
+      padding: 40px 0;
+      .text-main {
+        color: white;
+        font-size: 20px;
+        padding-top: 40px;
+      }
+    }
+}
+
+.product-card {
+    color: white;
+    padding: 0 15px;
+    width: calc(100%/6) ;
+    img{
+      width: 150px;
+      height: 150px;
+    }
+    
+}
+
+
+.icon-section {
+    height: 120px;
+    background-color: rgb(2, 130, 249);
+    .container {
+      justify-content: space-around;
+      align-items: center;
+      img {
+        height: 40px;
+      }
+      div {
+        color: white;
+        padding-left: 10px;
+        align-items: center;
+        font-size: 12px;
+      }
+    }
+}

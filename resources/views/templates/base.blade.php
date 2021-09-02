@@ -16,7 +16,7 @@
         @include('templates.header')
     </header>
 
-    <div class="container">
+    <div class="container-home">
         @yield('content')
     </div>
     <footer>
