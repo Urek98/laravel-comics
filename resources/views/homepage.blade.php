@@ -5,78 +5,14 @@
 @section('content')
 <div class="main-section">
     <div class="container-main flex">
+        @foreach($comics as $comicSingle)
         <div class="product-card">
-            <img src="https://via.placeholder.com/100" />
-            <h3>titolo</h3>
-            <h4>titolo</h4>
-            <h4>titolo</h4>
+            <a href="{{ route('comics', [ 'id' => $loop->iteration ]) }}">
+                <img src="{{ $comicSingle['thumb'] }}" />
+                <h4>{{ $comicSingle["title"] }}</h4>
+            </a>
         </div>
-        <div class="product-card">
-            <img src="https://via.placeholder.com/100" />
-            <h3>titolo</h3>
-            <h4>titolo</h4>
-            <h4>titolo</h4>
-        </div>
-        <div class="product-card">
-            <img src="https://via.placeholder.com/100" />
-            <h3>titolo</h3>
-            <h4>titolo</h4>
-            <h4>titolo</h4>
-        </div>
-        <div class="product-card">
-            <img src="https://via.placeholder.com/100" />
-            <h3>titolo</h3>
-            <h4>titolo</h4>
-            <h4>titolo</h4>
-        </div>
-        <div class="product-card">
-            <img src="https://via.placeholder.com/100" />
-            <h3>titolo</h3>
-            <h4>titolo</h4>
-            <h4>titolo</h4>
-        </div>
-        <div class="product-card">
-            <img src="https://via.placeholder.com/100" />
-            <h3>titolo</h3>
-            <h4>titolo</h4>
-            <h4>titolo</h4>
-        </div>
-        <div class="product-card">
-            <img src="https://via.placeholder.com/100" />
-            <h3>titolo</h3>
-            <h4>titolo</h4>
-            <h4>titolo</h4>
-        </div>
-        <div class="product-card">
-            <img src="https://via.placeholder.com/100" />
-            <h3>titolo</h3>
-            <h4>titolo</h4>
-            <h4>titolo</h4>
-        </div>
-        <div class="product-card">
-            <img src="https://via.placeholder.com/100" />
-            <h3>titolo</h3>
-            <h4>titolo</h4>
-            <h4>titolo</h4>
-        </div>
-        <div class="product-card">
-            <img src="https://via.placeholder.com/100" />
-            <h3>titolo</h3>
-            <h4>titolo</h4>
-            <h4>titolo</h4>
-        </div>
-        <div class="product-card">
-            <img src="https://via.placeholder.com/100" />
-            <h3>titolo</h3>
-            <h4>titolo</h4>
-            <h4>titolo</h4>
-        </div>
-        <div class="product-card">
-            <img src="https://via.placeholder.com/100" />
-            <h3>titolo</h3>
-            <h4>titolo</h4>
-            <h4>titolo</h4>
-        </div>
+        @endforeach
     </div>
 </div>
 <div class="icon-section">

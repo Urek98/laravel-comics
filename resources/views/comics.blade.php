@@ -11,7 +11,9 @@
         <h1>Action Comics #1000: The Deluxe Edition</h1>
         <div class="price-bar flex">
             <div class="price flex">
-                <div>U.S. Price:$19.99</div>
+                <div>U.S. Price:
+                    <span>price</span>
+                </div>
                 <div>AVABILE</div>
             </div>
             <div class="check">Check Availability</div>

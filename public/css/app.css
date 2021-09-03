@@ -44,7 +44,7 @@
 .main-section .container-main {
   height: 100%;
   flex-wrap: wrap;
-  padding: 40px 0;
+  padding: 40px 40px;
 }
 
 .main-section .container-main .text-main {
@@ -59,9 +59,12 @@
   width: calc(100%/6);
 }
 
-.product-card img {
-  width: 150px;
-  height: 150px;
+.product-card a {
+  text-decoration: none;
+}
+
+.product-card a h4 {
+  text-align: center;
 }
 
 .icon-section {
