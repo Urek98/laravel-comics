@@ -43,7 +43,7 @@
             <h2>Specs</h2>
             <div class="art-by flex">
                 <div class="art-by-script">Series:</div>
-                <div class="artist-writer">ACTION COMIC</div>
+                <div class="artist-writer">{{ $comics[$arrayIndex]["series"] }}</div>
             </div>
             <div class="art-by flex">
                 <div class="art-by-script">U.S. Price:</div>
