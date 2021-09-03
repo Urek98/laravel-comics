@@ -32,7 +32,7 @@
 }
 
 .jumbo {
-  height: 300px;
+  height: 400px;
   width: 100%;
   background-image: url(/img/jumbotron.jpg);
 }
@@ -93,13 +93,9 @@
   background-color: #0479e6;
 }
 
-.comic-cover-container {
-  margin-bottom: 100px;
-}
-
-.comic-cover-container .comic-cover {
-  width: 120px;
-  height: 170px;
+.cover-bar img {
+  margin-left: 300px;
+  margin-top: -250px;
 }
 
 .detail-section {
@@ -154,6 +150,7 @@
 .about-section {
   height: 300px;
   background-color: #f6f6f6;
+  z-index: 2;
 }
 
 .about-section .about-container {
